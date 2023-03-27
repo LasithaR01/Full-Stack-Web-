@@ -5,6 +5,7 @@ h1{
  font-size: 40px;
  text-align: center;
  text-decoration: overline;
+ color:rgba(255, 0, 0, 0.4);
 
 }
 p{
@@ -14,6 +15,8 @@ p{
   font-size: 1.7em;
   text-decoration: underline;
   line-height: 2;
+  color:blue;
+
 }
 
 span{
@@ -22,5 +25,5 @@ span{
 
  body{
   background-color: yellow;
-} 
+}
 /* rgb(red content,green content,blue content) */
