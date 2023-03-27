@@ -1,0 +1,16 @@
+h1{
+  font-family: Arial;
+  text-align: center;
+  text-decoration: overline;
+}
+p{
+  font-family:Tahoma;
+  font-style: italic;
+  font-size: 0.4cm;
+  text-decoration: underline;
+  line-height:1;
+}
+
+span{
+  font-weight: bold;
+}
