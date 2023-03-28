@@ -5,6 +5,16 @@
   float:left;
 }
 
+.pink{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  float: right;
+  margin-left: 10px;
+  box-shadow:5px 10px #888888;
+
+}
+
 .yellow{
   width: 100px;
   height: 100px;
@@ -25,4 +35,6 @@
   border-radius: 40px;
   transform:rotate(60deg);
 
+
+}
 }
