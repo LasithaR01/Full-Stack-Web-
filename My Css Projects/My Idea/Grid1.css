@@ -1,0 +1,23 @@
+.container{
+  border:1px solid blue;
+  padding: 10px;
+  display: grid;
+  /*grid-template-columns: 100px 200px 300px;
+  grid-template-rows: 100px 200px 300px; */
+  grid-template: 100px 200px 300px /25% 200px 300px;
+  grid-gap: 10px;
+
+  justify-items:start;
+
+}
+
+.box{
+  background-color: orange;
+  border:1px solid blue;
+}
+.box1{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
