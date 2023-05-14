@@ -1,0 +1,20 @@
+.navbar{
+  border-bottom: #e600e6 solid 5px;
+}
+
+.navbar .navbar-brand{
+  color: #e600e6 !important;
+  font-size: 24px;
+}
+
+.nav-link{
+  text-transform: uppercase;
+}
+
+#header{
+  background: url('../images/header-bg.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+
+}
