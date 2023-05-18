@@ -1,3 +1,4 @@
+/* Navbar Section */
 .navbar{
   border-bottom: #e600e6 solid 5px;
 }
@@ -11,10 +12,22 @@
   text-transform: uppercase;
 }
 
+.nav-link:hover{
+  color:#e600e6 !important;
+}
+/* Navbar Section */
+/* Header Section */
 #header{
   background: url('../images/header-bg.jpg') no-repeat;
   background-size: cover;
   height: 100vh;
-
-
 }
+
+h1{
+  margin-top: 20px;
+}
+
+#header .overlay{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+/* Header Section */
