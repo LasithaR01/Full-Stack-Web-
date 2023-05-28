@@ -19,7 +19,7 @@
 /* Header Section */
 #header{
   background: url('../images/header-bg.jpg') no-repeat;
-  background-size: cover;
+  background-size:cover;
   height: 100vh;
 }
 
@@ -30,4 +30,20 @@ h1{
 #header .overlay{
   background-color: rgba(255, 0, 0, 0.5);
 }
+
+.btn-outline-secondary:hover{
+  background-color: #990099;
+}
 /* Header Section */
+
+#features fa{1
+  font-size: 40px;
+}
+#features i{
+  color:#990099;
+  cursor:pointer;
+}
+#features h3:hover{
+  color:#990099;
+  cursor:pointer;
+}
