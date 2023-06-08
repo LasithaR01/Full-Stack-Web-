@@ -155,3 +155,25 @@ text-transform: uppercase;
   margin-left: 120px;
 }
 /*Footer Section */
+
+@media screen and (max-width: 1200px)
+{
+#header{
+  background-size: 1200px 100vh;
+
+}
+}
+
+@media screen and (max-width: 992px)
+{
+  #header{
+    background-size: 990px 100vh;
+  }
+
+}
+
+@media screen and (max-width: 768px)
+{
+  #header{
+    background-size: 760px 100vh;
+  }
