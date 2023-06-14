@@ -91,7 +91,8 @@ while (count <= 100) {
 for (var number = 1; number < 11; number++) {
     console.log(number);
 }*/
-for (var i = 25; i <= 100; i++) {
+
+/*for (var i = 25; i <= 100; i++) {
     if ((i % 7 === 0) && (i % 5 === 0)) {
         console.log(i);
     }
@@ -111,4 +112,114 @@ for (var i = 1; i <= 10; i++) {
         console.log(i);
         break;
     }
+}*/
+
+/// FUNCTIONS ///
+
+/*function sayHello(){
+    console.log('Hello World');
 }
+
+sayHello();*/
+
+/*function doSomething () {
+    console.log('Hello world');
+    console.log('goodbye World');
+    console.log('How are you?');
+}
+
+doSomething ();
+doSomething ();
+doSomething ();
+doSomething ();*/
+
+/*function sayHi (name) {
+    console.log('Hi' + ' ' + name);
+}
+
+sayHi('Lasitha');
+
+function cude (number) {
+    console.log(number * number * number);
+}
+
+cude(4);*/
+
+///FUNCTIONS RETURN KEYWORD///
+
+/*function cude (number) {
+    return(number * number * number);
+}
+
+console.log(cude(4));*/
+
+///FUNCTION DECLARATION AND EXPRESSION///
+
+/*function declaration
+function calculateAge(birthYear) {
+    return 2020 = birthYear;
+}*/
+
+//function expression
+/*var calculateAge = function (birthYear) {
+return 2020 - birthYear;
+}
+
+var age = calculateAge (1981);
+console.log(age);
+
+calculateAge = 'John';
+console.log(calculateAge);
+
+var Age = calculateAge (1990);*/
+
+/*function subtraction (X, Y) {
+return Y - X;
+}
+
+var result = subtraction (18, 97);
+console.log(result);
+
+var isOdd = function (number){
+if (number % 2 !== 0) {
+    return true;
+}    
+    return false;
+}
+
+console.log(isOdd(5));*/
+
+///FUNCTION SCOPE///
+
+/*function sayName() {
+    var Name ='Lasitha';
+    console.log(Name);
+}
+
+sayName ();
+console.log(Name);
+
+var Name = "Chamod"
+console.log(Name);
+sayName();*/
+
+ /*var  Count = 18;
+ console.log(Count);
+
+ function writeCount () {
+ console.log(Count);
+ }
+
+ writeCount (); */
+
+ function sayHi (){
+    var myWord = 'Hi there';
+    console.log(myWord);
+    sayBye ();
+
+    function sayBye () {
+        console.log(myWord);
+    }
+
+ }
+ sayHi ();
