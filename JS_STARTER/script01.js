@@ -212,7 +212,7 @@ sayName();*/
 
  writeCount (); */
 
- function sayHi (){
+ /*function sayHi (){
     var myWord = 'Hi there';
     console.log(myWord);
     sayBye ();
@@ -222,4 +222,99 @@ sayName();*/
     }
 
  }
- sayHi ();
+ sayHi ();*/
+
+ ///ARRAYS///
+
+ /*var student1 = 'Sheldon'
+ var student2 = 'Penny'
+ var student3 = 'Leonard'
+ var student4 = 'Raj'
+ 
+ var students = ['Sheldon', 'Leonard', 'Penny', 'Raj'];
+ 
+ //Sheldon = index 0
+ //Leonard = index 1
+ //penny = index 2
+ //Raj = index 3
+ 
+ console.log(students); 
+ console.log(students[0]);
+
+ students[0] = 'Amy';
+ console.log(students);
+
+ students[4] = 'lisa';
+ console.log(students);*/
+
+ ///ARRAYS METHODS///
+ 
+ /*var students = ['Sheldon', 'Leonard', 'Penny', 'Raj'];
+
+ //push method adds a new item to the end of an array//
+ students.push('Bernadette');
+ console.log(students);
+
+ //pop method removes the last item from array//
+var lastStudent = students.pop();
+console.log(lastStudent);
+
+//unshift adds new item to the beginning of array
+var cats = ['cat1','cat2','cat3'];
+cats.unshift('cat4');
+console.log(cats);
+
+//shift method removes item from beginning
+cats.shift();
+console.log(cats);
+
+//indexof
+console.log(students.indexOf('Sheldon'));
+
+//slice
+
+var friends = ['Rose','Rachel','Joey','Chandler'];
+var closeFriends = friends.slice(1 ,3);
+console.log(friends);
+console.log(closeFriends);
+
+var otherFriends = friends.slice();
+console.log(otherFriends);*/
+
+///ARRAY QUIZ///
+
+/*var books = ['Harry Potter','Habbit','Hunger Game','Little Prince'];
+console.log(books[books.length - 1]);
+
+var films = [
+    ['hobbit1', 'hobbit2', 'hobbit3'],
+    ['matrix1', 'matrix2', 'matrix3'],
+    ['godFather1', 'godFather2', 'godFather3']
+]
+
+console.log(films [2] [2]);*/
+
+/*for (var i = 0; i < books.length; i++) {
+    console.log(books[i]);
+}
+
+books.forEach(function () {
+    console.log('mybooks');
+});*/
+
+var numbers = [];
+
+for (var i = 0; i <= 20; i++) {
+    numbers.push(i);
+}
+
+console.log(numbers);
+
+numbers.forEach(function (number) {
+    if (number % 5 === 0) {
+        console.log(number);
+    }
+})
+
+
+
