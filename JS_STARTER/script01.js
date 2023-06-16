@@ -302,7 +302,7 @@ books.forEach(function () {
     console.log('mybooks');
 });*/
 
-var numbers = [];
+/*var numbers = [];
 
 for (var i = 0; i <= 20; i++) {
     numbers.push(i);
@@ -314,7 +314,81 @@ numbers.forEach(function (number) {
     if (number % 5 === 0) {
         console.log(number);
     }
-})
+})*/
 
+///OBJECTS///
+///HOW TO ADD PROPERTY TO OBJECTS///
 
+/*var colors = {};
 
+colors.orange = { code: 123};
+console.log(colors.orange.code);
+
+colors.black = { code: [4,5,6]};
+console.log(colors.black.code[2]);
+
+var blogPosts = [
+    {
+        title:'weather',
+        content:'it is rainy today'
+    },
+    {
+        title:'weather',
+        content:'I do not like weather'
+    }
+];
+
+console.log(blogPosts[1]);*/
+
+//OBJECTS QUIZ///
+
+/*var universities = [
+    {
+      name: 'MIT',
+      hasGone: false,
+      year: 1890
+    },
+    {
+      name: 'Harvard',
+      hasGone: true,
+      year: 1900
+    },
+    {
+      name: 'Oxford',
+      hasGone: true,
+      year: 1800
+    }
+  ];
+  
+  universities.forEach(function (university) {
+    if (university.hasGone === true) {
+      console.log(university.name + university.year);
+    } else {
+      console.log(university.name);
+    }
+  });*/
+
+  ///OBJECTS METHODS///
+
+  var Sheldon = {
+    name: 'Sheldon',
+    age: 35,
+    hasGone: true,
+    friends: ['Penny', 'Raj'],
+    say: function () {
+      console.log('say hi Sheldon');
+    }
+  }
+  
+  Sheldon.say();
+  
+  var Leonard = {
+    name: 'Leonard',
+    say: function () {
+      console.log('say hi Leonard');
+    }
+  }
+  
+  Leonard.say();
+
+ 
